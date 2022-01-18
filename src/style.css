@@ -1,5 +1,28 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
-
 * {
-  outline-style: dashed;
+  outline-style: dotted;
+  margin: 0;
+  padding: 0;
+}
+
+.table {
+  height: 100vh;
+  background-color: yellowgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.my-card {
+  background-color: white;
+  width: 300px;
+  height: 450px;
+}
+
+.header-card {
+  height: 100px;
+}
+center-card {
+  height: 250px;
+}
+footer-card {
+  height: 100px;
 }
