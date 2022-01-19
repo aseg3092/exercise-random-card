@@ -34,6 +34,9 @@
   align-items: end;
   padding-right: 25px;
 }
+.footer-card span {
+  -webkit-transform: rotate(180deg);
+}
 span {
   font-size: 108px;
 }
