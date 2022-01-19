@@ -7,7 +7,9 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   //write your code here
+};
 
+document.getElementById("GenerateCard").addEventListener("click", () => {
   let palos = ["♦", "♥", "♠", "♣"];
   let numeros = [
     "A",
@@ -42,4 +44,4 @@ window.onload = function() {
   //random of infex from 0 to 12 to select the number of the card
   let numero = numeros[Math.floor(Math.random() * (13 - 0) + 0)];
   document.querySelector(".numero").innerHTML = numero;
-};
+});
